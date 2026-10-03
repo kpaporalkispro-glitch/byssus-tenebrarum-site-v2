@@ -1,0 +1,58 @@
+{
+  "brand": {
+    "name": "Byssus Tenebrarum",
+    "currency": "EUR",
+    "imageCountPerCategory": 10
+  },
+  "categories": [
+    {
+      "slug": "colliers",
+      "name": "Colliers",
+      "folder": "assets/images/products/colliers",
+      "prefix": "colliers",
+      "basePrice": 79
+    },
+    {
+      "slug": "manchettes",
+      "name": "Poignets & manchettes",
+      "folder": "assets/images/products/manchettes",
+      "prefix": "manchettes",
+      "basePrice": 59
+    },
+    {
+      "slug": "chaines-taille",
+      "name": "Chaînes de taille",
+      "folder": "assets/images/products/chaines-taille",
+      "prefix": "chaines-taille",
+      "basePrice": 89
+    },
+    {
+      "slug": "parures-buste",
+      "name": "Parures de buste",
+      "folder": "assets/images/products/parures-buste",
+      "prefix": "parures-buste",
+      "basePrice": 119
+    },
+    {
+      "slug": "boucles-oreilles",
+      "name": "Boucles d’oreilles",
+      "folder": "assets/images/products/boucles-oreilles",
+      "prefix": "boucles-oreilles",
+      "basePrice": 49
+    },
+    {
+      "slug": "ensembles-couple",
+      "name": "Ensembles couple",
+      "folder": "assets/images/products/ensembles-couple",
+      "prefix": "ensembles-couple",
+      "basePrice": 129
+    },
+    {
+      "slug": "bijoux-corps",
+      "name": "Bijoux de corps",
+      "folder": "assets/images/products/bijoux-corps",
+      "prefix": "bijoux-corps",
+      "basePrice": 139
+    }
+  ]
+}
