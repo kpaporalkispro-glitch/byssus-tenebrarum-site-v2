@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact · Byssus Tenebrarum</title>
+<meta name="description" content="Bijoux artisanaux en micro-macramé, créations personnalisées et boutique en ligne.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span>✦ Micro-macramé artisanal</span>
+  <span>◇ Pierres naturelles</span>
+  <span>✋ Créations sur-mesure</span>
+  <span class="grow"></span>
+  <a href="guide-images.html">Guide photos</a>
+</div>
+<header class="header">
+  <a class="logo-wrap" href="index.html"><img src="assets/logo/byssus-tenebrarum-logo.png" alt="Byssus Tenebrarum"></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">☰</button>
+  <nav id="mainNav">
+    <a href="index.html">Accueil</a>
+    <a href="boutique.html">Boutique</a>
+    <a href="creation.html" class="highlight">Créer mon bijou</a>
+    <a href="pierres.html">Pierres</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="panier.html" class="cart-pill">Panier <b id="cartCount">0</b></a>
+  </nav>
+</header>
+
+<main>
+<section class="page-intro"><span class="kicker">CONTACT</span><h1>Parlons de votre projet</h1><p>Question produit, sur-mesure ou commande.</p></section>
+<section class="contact-grid">
+<form onsubmit="event.preventDefault(); alert('Formulaire de démonstration : connectez-le à votre service e-mail.');">
+<label>Nom<input required></label><label>E-mail<input type="email" required></label>
+<label>Objet<select><option>Création sur-mesure</option><option>Produit boutique</option><option>Commande</option><option>Autre</option></select></label>
+<label>Message<textarea rows="8" required></textarea></label><button class="btn primary">Envoyer</button>
+</form>
+<aside><h3>Atelier</h3><p>Création artisanale en petite série et sur commande.</p><h3>Conseil</h3><p>Pour un projet très précis, commencez par le configurateur et ajoutez votre fiche au panier.</p></aside>
+</section>
+</main>
+
+<footer>
+  <div class="footer-brand">
+    <img src="assets/logo/byssus-tenebrarum-logo.png" alt="">
+    <p>Bijoux et parures artisanales en micro-macramé.</p>
+  </div>
+  <div><h4>Boutique</h4><a href="boutique.html">Toutes les créations</a><a href="creation.html">Sur-mesure</a><a href="pierres.html">Pierres</a></div>
+  <div><h4>Informations</h4><a href="apropos.html">À propos</a><a href="contact.html">Contact</a><a href="guide-images.html">Guide photos</a></div>
+</footer>
+<div class="copyright">© 2026 Byssus Tenebrarum · Prototype e-commerce GitHub Pages</div>
+
+<script src="js/app.js"></script>
+<script src="js/cart.js"></script>
+
+</body>
+</html>

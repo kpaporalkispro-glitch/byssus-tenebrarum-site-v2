@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Créer mon bijou · Byssus Tenebrarum</title>
+<meta name="description" content="Bijoux artisanaux en micro-macramé, créations personnalisées et boutique en ligne.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span>✦ Micro-macramé artisanal</span>
+  <span>◇ Pierres naturelles</span>
+  <span>✋ Créations sur-mesure</span>
+  <span class="grow"></span>
+  <a href="guide-images.html">Guide photos</a>
+</div>
+<header class="header">
+  <a class="logo-wrap" href="index.html"><img src="assets/logo/byssus-tenebrarum-logo.png" alt="Byssus Tenebrarum"></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">☰</button>
+  <nav id="mainNav">
+    <a href="index.html">Accueil</a>
+    <a href="boutique.html">Boutique</a>
+    <a href="creation.html" class="highlight">Créer mon bijou</a>
+    <a href="pierres.html">Pierres</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="panier.html" class="cart-pill">Panier <b id="cartCount">0</b></a>
+  </nav>
+</header>
+
+<main>
+<section class="page-intro creation-intro">
+  <span class="kicker">CRÉATION SUR-MESURE</span>
+  <h1>Votre bijou, jusque dans le moindre nœud.</h1>
+  <p>Un configurateur poussé pour préparer une création réellement personnalisée en micro-macramé.</p>
+</section>
+
+<div class="builder-progress" id="builderProgress"></div>
+
+<section class="builder-layout">
+  <div class="builder-main">
+    <div id="builderStep"></div>
+    <div class="builder-actions">
+      <button class="btn secondary" id="builderPrev">← Précédent</button>
+      <button class="btn primary" id="builderNext">Étape suivante →</button>
+    </div>
+  </div>
+  <aside class="builder-side">
+    <div class="preview-card">
+      <h3>Aperçu</h3>
+      <img id="builderPreview" src="assets/images/products/colliers/colliers-01.png" alt="Aperçu">
+    </div>
+    <div class="summary-card">
+      <h3>Votre création</h3>
+      <dl id="builderSummary"></dl>
+      <div class="estimate"><span>Estimation</span><strong id="builderEstimate">—</strong></div>
+    </div>
+  </aside>
+</section>
+
+<section class="section builder-help">
+  <h2>Ce que le configurateur prépare</h2>
+  <p>Le résultat est une fiche de création complète ajoutable au panier. Pour une production réelle, vous pourrez ensuite connecter cette fiche à votre e-mail, formulaire, Stripe, Shopify, WooCommerce ou un back-office.</p>
+</section>
+</main>
+
+<footer>
+  <div class="footer-brand">
+    <img src="assets/logo/byssus-tenebrarum-logo.png" alt="">
+    <p>Bijoux et parures artisanales en micro-macramé.</p>
+  </div>
+  <div><h4>Boutique</h4><a href="boutique.html">Toutes les créations</a><a href="creation.html">Sur-mesure</a><a href="pierres.html">Pierres</a></div>
+  <div><h4>Informations</h4><a href="apropos.html">À propos</a><a href="contact.html">Contact</a><a href="guide-images.html">Guide photos</a></div>
+</footer>
+<div class="copyright">© 2026 Byssus Tenebrarum · Prototype e-commerce GitHub Pages</div>
+
+<script src="js/app.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/builder.js"></script>
+</body>
+</html>

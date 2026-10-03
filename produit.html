@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Produit · Byssus Tenebrarum</title>
+<meta name="description" content="Bijoux artisanaux en micro-macramé, créations personnalisées et boutique en ligne.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span>✦ Micro-macramé artisanal</span>
+  <span>◇ Pierres naturelles</span>
+  <span>✋ Créations sur-mesure</span>
+  <span class="grow"></span>
+  <a href="guide-images.html">Guide photos</a>
+</div>
+<header class="header">
+  <a class="logo-wrap" href="index.html"><img src="assets/logo/byssus-tenebrarum-logo.png" alt="Byssus Tenebrarum"></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">☰</button>
+  <nav id="mainNav">
+    <a href="index.html">Accueil</a>
+    <a href="boutique.html">Boutique</a>
+    <a href="creation.html" class="highlight">Créer mon bijou</a>
+    <a href="pierres.html">Pierres</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="panier.html" class="cart-pill">Panier <b id="cartCount">0</b></a>
+  </nav>
+</header>
+
+<main>
+<section class="product-page" id="productPage">
+  <div class="product-media">
+    <img id="productImage" alt="">
+  </div>
+  <div class="product-info">
+    <span class="kicker" id="productCategory"></span>
+    <h1 id="productName"></h1>
+    <div class="price" id="productPrice"></div>
+    <p id="productDesc"></p>
+    <div class="facts"><span>✋ Fait main</span><span>◇ Pierre naturelle</span><span>↺ Ajustable</span></div>
+    <label>Quantité<div class="qty"><button id="qtyMinus">−</button><b id="qty">1</b><button id="qtyPlus">+</button></div></label>
+    <button class="btn primary full" id="productAdd">Ajouter au panier</button>
+    <a class="btn secondary full" href="creation.html">Je veux une version personnalisée</a>
+  </div>
+</section>
+<section class="section"><div class="section-head"><div><span class="kicker">AUTRES CRÉATIONS</span><h2>Dans le même univers</h2></div></div><div id="related" class="product-grid"></div></section>
+</main>
+
+<footer>
+  <div class="footer-brand">
+    <img src="assets/logo/byssus-tenebrarum-logo.png" alt="">
+    <p>Bijoux et parures artisanales en micro-macramé.</p>
+  </div>
+  <div><h4>Boutique</h4><a href="boutique.html">Toutes les créations</a><a href="creation.html">Sur-mesure</a><a href="pierres.html">Pierres</a></div>
+  <div><h4>Informations</h4><a href="apropos.html">À propos</a><a href="contact.html">Contact</a><a href="guide-images.html">Guide photos</a></div>
+</footer>
+<div class="copyright">© 2026 Byssus Tenebrarum · Prototype e-commerce GitHub Pages</div>
+
+<script src="js/app.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/product.js"></script>
+</body>
+</html>
